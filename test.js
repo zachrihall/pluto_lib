@@ -1,0 +1,1 @@
+const soccerBall = require('./image/makeSoccerBall');
