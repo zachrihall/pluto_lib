@@ -1,12 +1,9 @@
-
-function image(src, width, name) {
+export function image(src, width, name, aria, container) {
+    const parentContainer = document.getElementById(container);
     const img = document.createElement('img');
     img.style.width = `${width}px`;
     img.src = src;
-    img.classList.add(name)
-    document.body.appendChild(img);
+    img.classList.add(name);
+    img.ariaLabel = aria;
+    parentContainer.appendChild(img);
 }
-
-module.exports = {image}
-
-
