@@ -2,7 +2,7 @@ function css(e, styles) {
   for (const property in styles) e.style[property] = styles[property];
 }
 
-export function createForm(labelNames, container) {
+export function form(labelNames, container) {
 
   const parentContainer = document.getElementById(container);
   const form = document.createElement("form");
@@ -32,4 +32,3 @@ export function createForm(labelNames, container) {
   parentContainer.appendChild(form);
 }
 
-createForm(["Name", "Last Name"]);
