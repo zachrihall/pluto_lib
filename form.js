@@ -32,4 +32,4 @@ export function createForm(labelNames, container) {
   parentContainer.appendChild(form);
 }
 
-// createForm(["Name", "Last Name"]);
+createForm(["Name", "Last Name"]);
