@@ -5,7 +5,7 @@ export function ul(items, color, font, container){
         const itemAdd = document.createElement('p');
         itemAdd.innerText = element;
         itemAdd.style.color = color;
-        itemAdd.style.fontSize = `${font}px`;
+        itemAdd.style.fontSize = `${font}em`;
 
         ul.appendChild(itemAdd);
     });

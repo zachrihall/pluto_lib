@@ -14,6 +14,18 @@ container('zachs-container', 'vertical', 'start', 'white');
 
 h1('this is my title', 'zachs-container', 'my-title', 'black');
 ul(['house', 'coffee', 'taco', 'phone'], 'black', 20,'zachs-container');
+
+
+
+
+
+
+
+
+
+
+
+
 // h2('this is my subtitle', 'zachs-container', 'my-sub-title');
 // link('google', 'https://www.google.com', 'link to google', 20, 'my-link', 'zachs-container');
 // image('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/640px-Soccerball.svg.png', 50, 'soccer-ball', 'picture of a soccer ball', 'zachs-container');
