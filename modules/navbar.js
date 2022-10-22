@@ -1,4 +1,4 @@
-export function Navbar(obj) {
+export function navbar(obj) {
   let menu = document.createElement("div");
   menu.style.flexDirection = "row";
 
