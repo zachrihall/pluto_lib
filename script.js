@@ -1,10 +1,11 @@
-import { image } from "./Modules/image.js";
-import { link } from "./Modules/link.js";
-import { container } from "./Modules/container.js";
-import { h1 } from "./Modules/h1.js";
-import { form } from "./Modules/form.js";
-import { h2 } from "./Modules/h2.js";
-import { Navbar } from "./Modules/navbar.js";
+import { image } from "./modules/image.js";
+import { link } from "./modules/link.js";
+import { container } from "./modules/container.js";
+import { h1 } from "./modules/h1.js";
+import { form } from "./modules/form.js";
+import { h2 } from "./modules/h2.js";
+import { ul } from "./modules/ul.js";
+import { Navbar } from "./modules/navbar.js";
 
 container("zachs-container", "vertical");
 
