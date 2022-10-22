@@ -4,8 +4,16 @@ function css(e, styles) {
 
 export function form(labelNames, container) {
 
+  const submitHandler = (e) => {
+    e.preventDefault();
+    console.log(e.target.form);
+  }
+
   const parentContainer = document.getElementById(container);
   const form = document.createElement("form");
+  form.style.fontSize = '1.5rem';
+  form.style.width = '20em';
+
   document.body.appendChild(form);
   css(form, { display: "flex", "flex-direction": "column" });
   labelNames.forEach((labelName) => {
@@ -21,6 +29,8 @@ export function form(labelNames, container) {
     css(input, { width: "30%" });
   });
   const button = document.createElement("button");
+  button.onclick = (e) => {submitHandler(e)};
+
   css(button, {
     width: "20%",
     margin: "1rem",

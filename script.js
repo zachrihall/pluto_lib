@@ -12,6 +12,8 @@
 // import { navbar } from "./modules/navbar.js";
 import { container } from "./modules/container.js";
 import { navbar } from "./modules/navbar.js";
+import { form } from "./modules/form.js";
 
-container('cont', 'horizontal', 'start', 'lightblue');
+container('cont', 'vertical', 'start', 'lightblue');
 navbar({'label': 'home', 'label2': 'about'}, 'https://www.allrecipes.com/thmb/VD3-aRi-sZHQ7keBLa5mFvq45Gs=/2000x2000/filters:no_upscale()/25473-the-perfect-basic-burger-ddmfs-1X1-1349-1-2661ab747b004738a4e31a51dc6330ab.jpg', 'red', 'cont');
+form(['name', 'age', 'height'], 'cont');
