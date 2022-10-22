@@ -11,6 +11,9 @@ export function form(labelNames, container) {
 
   const parentContainer = document.getElementById(container);
   const form = document.createElement("form");
+  form.style.fontSize = '1.5rem';
+  form.style.width = '20em';
+
   document.body.appendChild(form);
   css(form, { display: "flex", "flex-direction": "column" });
   labelNames.forEach((labelName) => {
