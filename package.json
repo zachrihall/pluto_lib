@@ -1,6 +1,6 @@
 {
   "name": "plutolib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A tool for simplifying code writing for web development.",
   "main": "script.js",
