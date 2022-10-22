@@ -1,5 +1,5 @@
 {
-  "name": "pluto_lib",
+  "name": "plutolib",
   "version": "1.0.0",
   "description": "A tool for simplifying code writing for web development.",
   "main": "script.js",
